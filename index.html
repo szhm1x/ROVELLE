@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rovelle · Tienda de ropa en línea (v1)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button class="logo" data-go="home" aria-label="Rovelle, ir al inicio">ROVELLE</button>
+  <nav aria-label="Principal">
+    <button class="lk" data-go="home">Inicio</button>
+    <button class="lk" data-go="catalog">Catálogo</button>
+    <span id="userbox"></span>
+    <button class="lk" data-go="cart" aria-label="Carrito">Carrito<span class="badge" id="count">0</span></button>
+  </nav>
+</header>
+
+<main id="app"></main>
+<footer>Rovelle v1 · ISO-310 Diseño Web · UNAPEC · Grupo No. 5 — Prototipo académico: el inicio de sesión y el carrito son simulados.</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
